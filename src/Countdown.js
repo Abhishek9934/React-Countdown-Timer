@@ -24,7 +24,7 @@ class Countdown extends Component {
           } else {
             clearInterval(this.timer);
             this.setState({ timerOn: false });
-            // alert("Timer ended");
+            alert("Timer ended");
           }
         }, 10);
       };
@@ -44,7 +44,7 @@ class Countdown extends Component {
           } else {
             clearInterval(this.timer);
             this.setState({ timerOn: false });
-            // alert("Timer ended");
+            alert("Timer ended");
           }
         }, 10);
       };
