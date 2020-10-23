@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [Create React App](https://github.com/facebook/create-react-app).
+
+The Web is deployed [here](https://abhishek9934.github.io/React-Countdown-Timer)
 
 ## Available Scripts
 
