@@ -2,6 +2,20 @@ This project was created with [Create React App](https://github.com/facebook/cre
 
 The Web app is deployed [here](https://abhishek9934.github.io/React-Countdown-Timer)
 
+## Running on your system
+
+1. Make sure you have node.js installed and npm installed. If not then install node
+2. Download or clone the repository to your local machine.
+3. Open cmd (windows) , or terminal(ubuntu) . Then go to the project directory then run;
+
+### `npm install`
+
+4. After this run 
+
+### `npm start`
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
