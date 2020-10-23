@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(22, 8, 21);
+  height: 100vh;
+  color: rgb(244, 245, 247)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Countdown{
+  background-color: #082127;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width:30em;
+  height:20em;
+  margin-top: -9em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid #ccc;
+  background-color: #8792aa;
+  border-radius: .5cm;
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Countdown {
+  padding-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Countdown-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+input{
+  width: 30px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Bottom{
+ position: relative;
+ margin-top: 10px;
+}
+
+
+
+button  {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #106ba3;
+}
+.Countdown-display {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.Countdown-display button {
+  margin: 0 15px;
+  border: solid 1px transparent;
+  border-radius: 2px;
+  padding: 4px 16px;
+  color: #ffffff;
+
+  font-size: 16px;
+}
+.Countdown-display button:hover {
+  background-color: #106ba3;
+}
+.Countdown-label {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.Countdown-time {
+  font-size: 36px;
+  margin: 5px 0;
 }
